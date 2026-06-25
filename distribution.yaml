@@ -1,16 +1,19 @@
 name: anser
 version: 0.2.0
-description: "Discord tech support agent for Hermes Agent. Also creates profiles and skills using Klerik + skill authoring. Always answers in TL;DR + file attachment format."
+description: Discord tech support agent for Hermes Agent. Also creates profiles and
+  skills using Klerik + skill authoring. Always answers in TL;DR + file attachment
+  format.
 author: SouthpawIN
 license: MIT
-hermes_requires: ">=0.12.0"
+hermes_requires: '>=0.12.0'
 homepage: https://github.com/SouthpawIN/sovth-config
 distribution_owned:
-  - SOUL.md
-  - AGENTS.md
-  - config.yaml
-  - skills/
+- SOUL.md
+- AGENTS.md
+- config.yaml
+- skills/
+- herm/
 env_requires:
-  - name: OPENROUTER_API_KEY
-    description: "OpenRouter API key for model access"
-    required: false
+- name: OPENROUTER_API_KEY
+  description: OpenRouter API key for model access
+  required: false
