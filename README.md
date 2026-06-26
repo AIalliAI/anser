@@ -20,7 +20,7 @@
 
 ```bash
 hermes profile install https://github.com/SouthpawIN/anser
-hermes profile activate anser
+hermes -p anser
 ```
 
 ### Update
